@@ -1,8 +1,8 @@
-import React,{useContext} from 'react';
+import React,{useContext,useEffect} from 'react';
 import { ProductContext } from '../Utils/DataContextComponents';
 import { useDispatch,useSelector } from 'react-redux';
 import store from '../redux/store';
-import { incrementQuantity,decrementQuantity,removeProduct} from '../redux/BlogSlice';
+import { incrementQuantity,decrementQuantity,removeProduct,saveAllBlogs} from '../redux/BlogSlice';
 function Card() {
   const { user} = useContext(ProductContext);
   const dispatch=useDispatch()
@@ -10,31 +10,31 @@ function Card() {
 
   const handleDecrease = (id, quantity) => {
     if (quantity > 1) {
-     dispatch(decrementQuantity({id}));
+      dispatch(decrementQuantity({ id }));
     }
-    console.log(quantity)
   };
 
   const handleIncrease = (id, quantity) => {
     if (quantity < 10) {
-      dispatch(incrementQuantity({id}));
+      dispatch(incrementQuantity({ id }));
     }
-    console.log(quantity)
   };
 
   const handleDelete = (id) => {
     dispatch(removeProduct({ id }));
-    console.log(id)
   };
-  const totalCartQuantity = user.products.reduce(
+  const totalCartQuantity = blogs.reduce(
     (total, product) => total + (product.quantity || 1),
     0
   );
 
-  const totalPrice = user.products.reduce(
+  const totalPrice = blogs.reduce(
     (total, product) => total + (product.price * (product.quantity || 1)),
     0
   );
+  useEffect(()=>{
+    dispatch(saveAllBlogs(user.products));
+  },[dispatch, user.products])
 
 
   return (
@@ -57,7 +57,7 @@ function Card() {
         </div>
       </div>
     </div>
-      {user.products.map((product) => {
+      {blogs.map((product) => {
         const carouselId = `carouselExample${product.id}`;
         const total = product.price * (product.quantity || 1);
 
