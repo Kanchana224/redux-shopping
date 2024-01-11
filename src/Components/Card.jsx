@@ -39,30 +39,36 @@ function Card() {
 
   return (
     <>
-      <div className='bg-dark rounded-4 text-center mb-5 topbar' style={{width:'100%', position:'sticky', top:'0', zIndex:'1000', color:'black'}}>
+     <div className='bg-dark rounded-4 text-center mb-5 topbar' style={{ width: '100%', position: 'sticky', top: '0', zIndex: '1000', color: 'black' }}>
   <div className="row mt-4">
-    <div className="col-3 img1" style={{fontFamily:"cursive", fontSize:"20px"}}>
-      <img src="https://preply.com/wp-content/uploads/2018/04/shopping_bags.jpg" alt="shop" style={{width:"60px", height:"60px"}}/>
+    <div className="col-3 img1" style={{ fontFamily: "cursive", fontSize: "20px" }}>
+      <img src="https://preply.com/wp-content/uploads/2018/04/shopping_bags.jpg" alt="shop" style={{ width: "60px", height: "60px" }} />
     </div>
-    <div className="col-3 img1" style={{fontFamily:"cursive", fontSize:"20px"}}>
-      <img src="https://www.kindpng.com/picc/m/20-203244_cart-online-icon-shopping-trolley-vector-png-transparent.png" alt="shop" style={{width:"60px", height:"60px"}}/>
+    <div className="col-3 img1" style={{ fontFamily: "cursive", fontSize: "20px" }}>
+      <img src="https://www.kindpng.com/picc/m/20-203244_cart-online-icon-shopping-trolley-vector-png-transparent.png" alt="shop" style={{ width: "60px", height: "60px" }} />
     </div>
-    <div className="col-3 img1" style={{fontFamily:"cursive", fontSize:"20px"}}>
-      <img src="https://cdn.textstudio.com/output/sample/normal/7/2/1/6/shopping-logo-275-16127.png" alt="shop" style={{width:"60px", height:"60px"}}/>
+    <div className="col-3 img1" style={{ fontFamily: "cursive", fontSize: "20px" }}>
+      <img src="https://cdn.textstudio.com/output/sample/normal/7/2/1/6/shopping-logo-275-16127.png" alt="shop" style={{ width: "60px", height: "60px" }} />
     </div>
-    <div className="col-3 img1" style={{fontFamily:"cursive", fontSize:"20px"}}>
-      <img src="https://www.clipartmax.com/png/middle/296-2961119_logo-happy-shopping-logo-png.png" alt="shop" style={{width:"60px", height:"60px"}}/>
+    <div className="col-3 img1" style={{ fontFamily: "cursive", fontSize: "20px" }}>
+      <img src="https://www.clipartmax.com/png/middle/296-2961119_logo-happy-shopping-logo-png.png" alt="shop" style={{ width: "60px", height: "60px" }} />
     </div>
   </div>
-  <div className="row mt-5">
-    <div className="col-6 text-center">
-      <button className='btn out' style={{fontSize:"30px", fontWeight:"bold", fontFamily:"cursive", color:"white"}}><i class="fa-solid fa-cart-shopping"/> <b>Total Price: $ {totalPrice}</b></button>
+  <div className="row mt-2 flex-column">
+    <div className="col-12 text-center mb-3">
+      <button className='btn out' style={{ fontSize: "20px", fontWeight: "bold", fontFamily: "cursive", color: "white" }}>
+        <i className="fa-solid fa-cart-shopping" /> <b>Total Price: $ {totalPrice}</b>
+      </button>
     </div>
-    <div className="col-6 text-center">
-      <button className='btn out' style={{fontSize:"30px", fontWeight:"bold", fontFamily:"cursive", color:"white"}}><i class="fa-solid fa-cart-shopping"/> Total Quantity: {totalCartQuantity}</button>
+    <div className="col-12 text-center">
+      <button className='btn out' style={{ fontSize: "20px", fontWeight: "bold", fontFamily: "cursive", color: "white" }}>
+        <i className="fa-solid fa-cart-shopping" /> Total Quantity: {totalCartQuantity}
+      </button>
     </div>
   </div>
 </div>
+
+
       {blogs.map((product) => {
         const carouselId = `carouselExample${product.id}`;
         const total = product.price * (product.quantity || 1);
