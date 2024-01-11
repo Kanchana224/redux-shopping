@@ -56,13 +56,13 @@ function Card() {
   </div>
   <div className="row mt-2 flex-column">
     <div className="col-12 text-center mb-3">
-      <button className='btn out' style={{ fontSize: "20px", fontWeight: "bold", fontFamily: "cursive", color: "white" }}>
-        <i className="fa-solid fa-cart-shopping" /> <b>Total Price: $ {totalPrice}</b>
+      <button className='btn out' style={{ fontSize: "20px", fontWeight: "bold", fontFamily: "cursive", color: "black" }}>
+        <i className="fa-solid fa-cart-shopping"style={{color:"aqua", fontSize:"25px"}} /> <b>Total Price: $ {totalPrice}</b>
       </button>
     </div>
     <div className="col-12 text-center">
-      <button className='btn out' style={{ fontSize: "20px", fontWeight: "bold", fontFamily: "cursive", color: "white" }}>
-        <i className="fa-solid fa-cart-shopping" /> Total Quantity: {totalCartQuantity}
+      <button className='btn out' style={{ fontSize: "20px", fontWeight: "bold", fontFamily: "cursive", color: "black" }}>
+        <i className="fa-solid fa-cart-shopping" style={{color:"aqua", fontSize:"25px"}} /> Total Quantity: {totalCartQuantity}
       </button>
     </div>
   </div>
