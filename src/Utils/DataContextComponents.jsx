@@ -17,11 +17,11 @@ function DataContextComponents({ children }) {
             "category": "smartphones",
             "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
             "images": [
-                "https://i.dummyjson.com/data/products/1/1.jpg",
-                "https://i.dummyjson.com/data/products/1/2.jpg",
-                "https://i.dummyjson.com/data/products/1/3.jpg",
-                "https://i.dummyjson.com/data/products/1/4.jpg",
-                "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+                "https://w0.peakpx.com/wallpaper/362/98/HD-wallpaper-samsung-galaxy-a9-smartphones-2018-mobile-phones-close-up-samsung.jpg",
+                "https://images.hindustantimes.com/img/2021/06/08/550x309/IMG_5223_1623145084295_1623145098953.jpg",
+                "https://w0.peakpx.com/wallpaper/56/740/HD-wallpaper-huawei-honor-20-mobile-phones-2019-smartphones-close-up-huawei.jpg",
+                "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71EI12-pjzL.jpg",
+                "https://m.media-amazon.com/images/I/61ugw5YLl-L.jpg"
             ]
         },
         {
@@ -36,10 +36,11 @@ function DataContextComponents({ children }) {
             "category": "smartphones",
             "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
             "images": [
-                "https://i.dummyjson.com/data/products/2/1.jpg",
-                "https://i.dummyjson.com/data/products/2/2.jpg",
-                "https://i.dummyjson.com/data/products/2/3.jpg",
-                "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+                "https://s.alicdn.com/@sc04/kf/H4e9eb6a136ed4d279606254c52f875cfB.jpg_300x300.jpg",
+                "https://images.hindustantimes.com/img/2021/06/08/550x309/IMG_5223_1623145084295_1623145098953.jpg",
+                "https://w0.peakpx.com/wallpaper/56/740/HD-wallpaper-huawei-honor-20-mobile-phones-2019-smartphones-close-up-huawei.jpg",
+                "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71EI12-pjzL.jpg",
+                "https://m.media-amazon.com/images/I/61ugw5YLl-L.jpg"
             ]
         },
         {
@@ -54,7 +55,11 @@ function DataContextComponents({ children }) {
             "category": "smartphones",
             "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
             "images": [
-                "https://i.dummyjson.com/data/products/3/1.jpg"
+                "https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2019/08/Xiaomi-Redmi-K20-Review-with-pros-and-cons-india-4.jpg?resize=1920%2C1280&ssl=1",
+                "https://images.hindustantimes.com/img/2021/06/08/550x309/IMG_5223_1623145084295_1623145098953.jpg",
+                "https://w0.peakpx.com/wallpaper/56/740/HD-wallpaper-huawei-honor-20-mobile-phones-2019-smartphones-close-up-huawei.jpg",
+                "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71EI12-pjzL.jpg",
+                "https://m.media-amazon.com/images/I/61ugw5YLl-L.jpg"
             ]
         },
         {
@@ -69,11 +74,11 @@ function DataContextComponents({ children }) {
             "category": "smartphones",
             "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
             "images": [
-                "https://i.dummyjson.com/data/products/4/1.jpg",
-                "https://i.dummyjson.com/data/products/4/2.jpg",
-                "https://i.dummyjson.com/data/products/4/3.jpg",
-                "https://i.dummyjson.com/data/products/4/4.jpg",
-                "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+                "https://cdn.screenguards.co.in/media/catalog/product/cache/11/image/9df78eab33525d08d6e5fb8d27136e95/-/1/-104410110624p.jpg",
+                "https://images.hindustantimes.com/img/2021/06/08/550x309/IMG_5223_1623145084295_1623145098953.jpg",
+                "https://w0.peakpx.com/wallpaper/56/740/HD-wallpaper-huawei-honor-20-mobile-phones-2019-smartphones-close-up-huawei.jpg",
+                "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71EI12-pjzL.jpg",
+                "https://m.media-amazon.com/images/I/61ugw5YLl-L.jpg"
             ]
         },
         {
@@ -88,9 +93,11 @@ function DataContextComponents({ children }) {
             "category": "smartphones",
             "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
             "images": [
-                "https://i.dummyjson.com/data/products/5/1.jpg",
-                "https://i.dummyjson.com/data/products/5/2.jpg",
-                "https://i.dummyjson.com/data/products/5/3.jpg"
+                "https://cdn.screenguards.co.in/media/catalog/product/cache/11/image/9df78eab33525d08d6e5fb8d27136e95/1/0/104410110759p.jpg",
+                "https://images.hindustantimes.com/img/2021/06/08/550x309/IMG_5223_1623145084295_1623145098953.jpg",
+                "https://w0.peakpx.com/wallpaper/56/740/HD-wallpaper-huawei-honor-20-mobile-phones-2019-smartphones-close-up-huawei.jpg",
+                "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71EI12-pjzL.jpg",
+                "https://m.media-amazon.com/images/I/61ugw5YLl-L.jpg"
             ]
         }
     ]
